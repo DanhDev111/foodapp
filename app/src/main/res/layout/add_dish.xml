@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/login"
+        android:orientation="vertical"
+        android:layout_width="341dp"
+        android:layout_height="406dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="182dp"
+        android:background="@drawable/login"
+        android:elevation="20dp"
+        android:layout_gravity="center">
+        <EditText
+
+            android:layout_width="292dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/login_frameacc"
+            android:textColorHint="#BEBEBE"
+            android:hint="Type here..."
+            android:padding="13dp"></EditText>
+        <EditText
+            android:layout_width="292dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/login_frameacc"
+            android:textColorHint="#BEBEBE"
+            android:hint="Type here..."
+            android:padding="13dp"></EditText>
+        <EditText
+            android:layout_width="292dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/login_frameacc"
+            android:textColorHint="#BEBEBE"
+            android:hint="Type here..."
+            android:padding="13dp"></EditText>
+        <EditText
+            android:layout_width="292dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/login_frameacc"
+            android:textColorHint="#BEBEBE"
+            android:hint="Type here..."
+            android:padding="13dp"></EditText>
+    </LinearLayout>
+</LinearLayout>
