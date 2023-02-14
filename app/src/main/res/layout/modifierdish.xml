@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="411dp"
+    android:layout_height="370dp"
+    android:orientation="vertical"
+    android:background="#FE6262"
+    >
+
+    <EditText
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        android:id="@+id/inputdish"
+        android:textSize="20dp"
+        android:elevation="3dp"
+        android:hint="Nhap ten mon"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:layout_height="46dp"
+
+        android:background="@drawable/rectangular_8"></EditText>
+    <EditText
+
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        android:id="@+id/inputImg"
+        android:hint="Nhap url"
+        android:textSize="20dp"
+        android:elevation="3dp"
+        android:textAlignment="center"
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rectangular_8"></EditText>
+    <EditText
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rectangular_8"
+        android:shadowColor="@color/black"
+        android:shadowRadius="300"
+
+        android:id="@+id/inputQuantity"
+        android:textSize="20dp"
+        android:elevation="3dp"
+        android:hint="Nhap so luong"
+        android:textAlignment="center"></EditText>
+    <EditText
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rectangular_8"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        android:id="@+id/inputCost"
+        android:textSize="20dp"
+        android:elevation="3dp"
+        android:hint="Nhap gia:"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"></EditText>
+</LinearLayout>

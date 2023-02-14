@@ -27,7 +27,7 @@
                     android:layout_height="91dp"
                     android:layout_marginLeft="17dp"
                     android:layout_marginTop="30dp"
-                    android:background="@drawable/dessrt">
+                    android:background="@drawable/salad">
 
                 </ImageView>
 
@@ -44,7 +44,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="9dp"
-                        android:text="Dessert 1"
+                        android:text="Vegetable mix with sauce"
 
                         android:textColor="@color/black"
                         android:textSize="15dp">
@@ -68,7 +68,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="19.5$"
+                        android:text="1.5$"
                         android:textColor="#FD5D5D"
 
                         android:textSize="15dp">

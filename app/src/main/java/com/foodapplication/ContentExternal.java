@@ -12,19 +12,20 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class ContentExternal extends AppCompatActivity {
-    ImageView meatDish,saladDish,dessert,soupDish;
+    ImageView meatDish,saladDish,dessert,soupDish,manageproduct;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_external);
         meatDish = (ImageView) findViewById(R.id.meatDish);
+        manageproduct = (ImageView) findViewById(R.id.manageproduct);
         saladDish = (ImageView) findViewById(R.id.saladDish);
         dessert =(ImageView) findViewById(R.id.dessert);
         soupDish = (ImageView) findViewById(R.id.soupDish);
         meatDish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(ContentExternal.this,"Login Successfully",Toast.LENGTH_LONG).show();
+//                Toast.makeText(ContentExternal.this,"Login Successfully",Toast.LENGTH_LONG).show();
                 Intent i = new Intent(ContentExternal.this, MeatListView.class);
                 startActivity(i);
             }
@@ -36,6 +37,26 @@ public class ContentExternal extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
+        soupDish.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(ContentExternal.this, SoupListViewActivity.class);
+                startActivity(i);
+            }
+        });
+        saladDish.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(ContentExternal.this, SaladListViewActivity.class);
+                startActivity(i);
+            }
+        });
+        manageproduct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(ContentExternal.this, ManageProduct.class);
+                startActivity(i);
+            }
+        });
     }
 }

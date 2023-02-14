@@ -7,70 +7,84 @@
     tools:context=".MeatListView"
     android:orientation="vertical"
     android:layout_marginTop="0dp">
+
     <LinearLayout
-        android:layout_width="379dp"
-        android:layout_marginTop="20dp"
-        android:layout_height="wrap_content">
+        android:id="@+id/linearclickbbq"
+        android:layout_width="411dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="0dp">
+
+
+        <ImageView
+            android:id="@+id/imgProduct"
+            android:layout_width="128dp"
+            android:layout_height="91dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bbq">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/nameProduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:text="Ribs BBQ - Wall Str 11"
+
+                android:textColor="@color/black"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-9dp"
+                android:text="Quantity:"
+                android:textColor="#FFA59F9F"
+                android:textSize="15dp"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/costProduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="19.5$"
+                android:textColor="#FD5D5D"
+
+                android:textSize="15dp">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
 
     <ImageView
-        android:layout_marginTop="30dp"
-        android:id="@+id/imgProduct"
-        android:layout_width="128dp"
-        android:layout_height="91dp"
-        android:background="@drawable/bbq"
-        android:layout_marginLeft="17dp">
-
-    </ImageView>
-    <LinearLayout
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="10dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="30dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Ribs BBQ - Wall Str 11"
-            android:textSize="15dp"
-            android:textColor="@color/black"
-
-            android:layout_marginBottom="9dp"
-            android:id="@+id/nameProduct">
-
-        </TextView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Quantity:"
-            android:layout_marginTop="-9dp"
-            android:textColor="#FFA59F9F"
-            android:textSize="15dp"
-
-            >
-
-        </TextView>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="19.5$"
-            android:textSize="15dp"
-            android:layout_marginTop="10dp"
-            android:textColor="#FD5D5D"
-
-            android:id="@+id/costProduct">
-
-        </TextView>
-    </LinearLayout>
-    </LinearLayout>
+        android:layout_width="411dp"
+        android:layout_height="1dp"
+        android:background="@drawable/line_2"
+        android:layout_marginTop="0dp"></ImageView>
 
     <LinearLayout
-        android:layout_width="379dp"
-        android:layout_marginTop="20dp"
+        android:id="@+id/clickchicken"
+        android:layout_width="411dp"
+        android:layout_marginTop="0dp"
         android:layout_height="wrap_content">
     <ImageView
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_width="128dp"
         android:layout_height="91dp"
         android:layout_marginLeft="17dp"
@@ -83,7 +97,7 @@
         android:orientation="vertical"
         android:padding="10dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="20dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -119,66 +133,19 @@
         </TextView>
     </LinearLayout>
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="379dp"
-        android:layout_marginTop="20dp"
-        android:layout_height="wrap_content">
     <ImageView
-        android:layout_marginTop="30dp"
-        android:layout_width="128dp"
-        android:layout_height="91dp"
-        android:layout_marginLeft="17dp"
-        android:background="@drawable/suonng">
+        android:layout_width="411dp"
+        android:layout_height="1dp"
+        android:background="@drawable/line_2"
+        android:layout_marginTop="18dp"></ImageView>
 
-    </ImageView>
     <LinearLayout
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="10dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="30dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Stir-fry Ribs - To ShangHai"
-            android:textSize="15dp"
-            android:textColor="@color/black"
-
-            android:layout_marginBottom="9dp"
-            >
-
-        </TextView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Quantity:"
-            android:layout_marginTop="-9dp"
-            android:textColor="#FFA59F9F"
-            android:textSize="15dp"
-            >
-
-        </TextView>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="20.0$"
-            android:textSize="15dp"
-            android:layout_marginTop="10dp"
-            android:textColor="#FD5D5D"
-            >
-
-        </TextView>
-    </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="379dp"
-        android:layout_marginTop="20dp"
+        android:id="@+id/clicksbacon"
+        android:layout_width="411dp"
+        android:layout_marginTop="0dp"
         android:layout_height="wrap_content">
         <ImageView
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             android:layout_width="128dp"
             android:layout_height="91dp"
             android:layout_marginLeft="17dp"
@@ -191,66 +158,13 @@
             android:orientation="vertical"
             android:padding="10dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="30dp">
+            android:layout_marginTop="20dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sausage and bacon - New York"
                 android:textSize="15dp"
                 android:textColor="@color/black"
-                android:layout_marginBottom="9dp"
-                >
-
-            </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Quantity:"
-                android:layout_marginTop="-9dp"
-                android:textColor="#FFA59F9F"
-                android:textSize="15dp"
-
-                >
-
-            </TextView>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="9.5$"
-                android:textSize="15dp"
-                android:layout_marginTop="10dp"
-                android:textColor="#FD5D5D"
-                >
-
-            </TextView>
-        </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="379dp"
-        android:layout_marginTop="1dp"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:layout_marginTop="30dp"
-            android:layout_width="128dp"
-            android:layout_height="91dp"
-            android:layout_marginLeft="17dp"
-            android:background="@drawable/cachhapca">
-
-        </ImageView>
-        <LinearLayout
-            android:layout_width="220dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="10dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="30dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Steam fish - FishShark"
-                android:textSize="15dp"
-                android:textColor="@color/black"
 
                 android:layout_marginBottom="9dp"
                 >
@@ -271,7 +185,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="$17.0$"
+                android:text="17.5$"
                 android:textSize="15dp"
                 android:layout_marginTop="10dp"
                 android:textColor="#FD5D5D"
@@ -280,8 +194,23 @@
             </TextView>
         </LinearLayout>
     </LinearLayout>
+    <ImageView
+        android:layout_width="411dp"
+        android:layout_height="1dp"
+        android:background="@drawable/line_2"
+        ></ImageView>
 
+<!--    ////////////-->
+<!--    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--        xmlns:tools="http://schemas.android.com/tools"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:context=".ManageProduct">-->
+<!--        <ListView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/productView"></ListView>-->
 
+    </LinearLayout>
 
-
-</LinearLayout>
